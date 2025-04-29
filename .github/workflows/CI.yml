@@ -100,9 +100,9 @@ jobs:
 
       - name: Setup python
         id: python
-        uses: actions/setup-python@v5
+        uses: deadsnakes/action@v2.1.1
         with:
-          python-version: '3.12.10'
+          python-version: "3.12"
 
       - name: Setup Dependencies Linux Flatpak
         run: |
