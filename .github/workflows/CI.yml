@@ -69,6 +69,8 @@ jobs:
             runner: ubuntu-22.04
           - arch: aarch64
             runner: ubuntu-22.04-arm
+          - arch: aarch64
+            runner: ubuntu-20.04-arm
     steps:
       - name: Maximize build space
         if: matrix.arch == 'x86_64'
